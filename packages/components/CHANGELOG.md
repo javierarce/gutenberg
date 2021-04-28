@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### New Feature
+
+-   `Flex` and its companion components have been re-written from the ground up and the `isReversed` prop has been deprecated.
+
 ## 13.0.0 (2021-03-17)
 
 ### Breaking Change
