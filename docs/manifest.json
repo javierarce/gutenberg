@@ -828,6 +828,12 @@
 		"parent": "components"
 	},
 	{
+		"title": "HStack",
+		"slug": "h-stack",
+		"markdown_source": "../packages/components/src/h-stack/README.md",
+		"parent": "components"
+	},
+	{
 		"title": "NavigateRegions",
 		"slug": "navigate-regions",
 		"markdown_source": "../packages/components/src/higher-order/navigate-regions/README.md",
@@ -1131,6 +1137,12 @@
 		"title": "UnitControl",
 		"slug": "unit-control",
 		"markdown_source": "../packages/components/src/unit-control/README.md",
+		"parent": "components"
+	},
+	{
+		"title": "VStack",
+		"slug": "v-stack",
+		"markdown_source": "../packages/components/src/v-stack/README.md",
 		"parent": "components"
 	},
 	{

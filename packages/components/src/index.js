@@ -65,6 +65,7 @@ export { default as __experimentalGradientPicker } from './gradient-picker';
 export { default as __experimentalCustomGradientPicker } from './custom-gradient-picker';
 export { default as Guide } from './guide';
 export { default as GuidePage } from './guide/page';
+export { default as __experimentalHStack } from './h-stack';
 export { default as Icon } from './icon';
 export { default as IconButton } from './button/deprecated';
 export { default as __experimentalInputControl } from './input-control';
@@ -123,6 +124,7 @@ export {
 export { default as TreeSelect } from './tree-select';
 export { default as __experimentalUnitControl } from './unit-control';
 export { default as VisuallyHidden } from './visually-hidden';
+export { default as __experimentalVStack } from './v-stack';
 export { default as IsolatedEventContainer } from './isolated-event-container';
 export {
 	createSlotFill,
