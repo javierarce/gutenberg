@@ -825,7 +825,9 @@ class WP_Theme_JSON {
 	 * @return string The new stylesheet.
 	 */
 	private function get_block_styles( $style_nodes, $setting_nodes ) {
-		$block_rules = '';
+		// We also have this rule in the client for generating styles in the edit-site.
+		// If you want to edit it, see also toStyles in the global-styles-renderer.js.
+		$block_rules = 'a:not(.wp-block-button__link) { color: var(--wp--style--color--link, #00e ); }';
 		foreach ( $style_nodes as $metadata ) {
 			if ( null === $metadata['selector'] ) {
 				continue;

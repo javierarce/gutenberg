@@ -264,7 +264,10 @@ export const toStyles = ( tree, blockSelectors ) => {
 	const nodesWithStyles = getNodesWithStyles( tree, blockSelectors );
 	const nodesWithSettings = getNodesWithSettings( tree, blockSelectors );
 
-	let ruleset = '';
+	// We also have this rule in the server.
+	// If you want to edit it, see also get_block_styles in class-wp-theme-json.php.
+	let ruleset =
+		'a:not(.wp-block-button__link) { color: var(--wp--style--color--link, #00e ); }';
 	nodesWithStyles.forEach( ( { selector, styles } ) => {
 		const declarations = getStylesDeclarations( styles );
 		if ( declarations.length > 0 ) {
